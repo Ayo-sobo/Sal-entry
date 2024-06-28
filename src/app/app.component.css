@@ -1,0 +1,12 @@
+
+.main-container {
+    /* background-image: url('../assets/whitebg.jpg');  */
+    background-color: white;
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

@@ -1,0 +1,116 @@
+/* src/app/home/home.component.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+body {
+  font-family: 'Mulish';
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 150px; 
+  height: auto;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 0.5; 
+  padding: 24px 28px;
+  background-color: #1E88E5;
+  border-radius: 8px;
+  height: 732px;
+  width: 280px;
+  text-align: center;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Mulish';
+}
+
+button {
+  position: relative;
+  color: red;
+  margin-top: 25px;
+  font-family: 'Mulish';
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+.right-panel {
+  flex: 3; 
+  font-family: 'Mulish';
+}
+
+.greeting {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.greeting h1 {
+  font-size: 34px; 
+  font-weight: bold; 
+  margin: 0; 
+}
+
+.greeting p {
+  font-size: 16px; 
+  margin: 0;
+}
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.icon-card {
+  /* width: calc((100% / 6) - 20px);  */
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: center;
+  background-color: #f0f0f0;
+
+
+}
+
+.icon-card:hover {
+  transform: scale(1.05);
+}
+
+.icon-card img {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+/* .footer {
+  background-color: #1E88E5;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
