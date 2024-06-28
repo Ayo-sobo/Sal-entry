@@ -4,7 +4,6 @@ import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  // Add more routes as needed
 ];
 
 @NgModule({

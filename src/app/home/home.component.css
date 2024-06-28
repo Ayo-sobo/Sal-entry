@@ -1,4 +1,3 @@
-/* src/app/home/home.component.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
@@ -112,11 +111,12 @@ body {
   height: auto;
   margin: auto;
 }
-/* .footer {
-  background-color: #1E88E5;
-  padding: 10px;
+.footer {
+  background-color: #0D3D66;
+  padding: 1px;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-} */
+}
+

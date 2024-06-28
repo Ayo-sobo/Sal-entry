@@ -1,6 +1,5 @@
 
 .main-container {
-    /* background-image: url('../assets/whitebg.jpg');  */
     background-color: white;
     background-size: cover; 
     background-position: center; 
@@ -8,5 +7,4 @@
     display: flex;
     flex-direction: column;
   }
-  
-  
+
