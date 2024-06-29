@@ -1,8 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
 body {
-  font-family: 'Mulish';
+  font-family: 'Mulish', sans-serif;
 }
 
 .header {
@@ -30,19 +29,25 @@ body {
   flex: 0.5; 
   padding: 24px 28px;
   background-color: #1E88E5;
-  border-radius: 8px;
+  border-radius: 20px;
   height: 732px;
   width: 280px;
   text-align: center;
   color: #f0f0f0;
   font-weight: bold;
   font-size: large;
-  font-family: 'Mulish';
+  font-family: 'Mulish', sans-serif;
+}
+
+.position {
+  font-size: 16px;
+  margin-top: -20px ;
+
 }
 
 .logout {
   position: relative;
-  margin-top: 250px;
+  margin-top: 280px;
 }
 
 .avatar {
@@ -55,18 +60,19 @@ body {
 
 .right-panel {
   flex: 3; 
-  font-family: 'Mulish';
+  font-family: 'Mulish', sans-serif;
+  color: #0D3D66; /* Set text color for the right panel */
 }
 
 .greeting {
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .greeting h1 {
-  font-size: 34px; 
+  font-size: 40px; 
   font-weight: bold; 
-  margin: 20; 
+  margin: 0; 
   margin-left: 80px;
 }
 
@@ -77,29 +83,28 @@ body {
 }
 
 .icon-container {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    gap: 50px;
-    justify-content: center;
-    padding: 70px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 50px;
+  justify-content: center;
+  padding: 70px;
 }
 
 .card {
-    
-    width: 80px;
-    height: 28px;
-    border-radius: 100%;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: flex-start;
+  width: 80px;
+  height: 28px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: flex-start;
 }
-.title{
-    align-items: right;
-    font-size: medium;
-    font-weight: bold;
-    font-family: 'Mulish';
-    cursor: pointer;
+
+.title {
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  color: #0D3D66; /* Set text color */
 }
 
 .card:hover {
@@ -111,6 +116,7 @@ body {
   height: auto;
   margin: auto;
 }
+
 .footer {
   background-color: #0D3D66;
   padding: 1px;
@@ -118,5 +124,5 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  color: #f0f0f0; /* Footer text color */
 }
-
