@@ -61,7 +61,7 @@ body {
 .right-panel {
   flex: 3; 
   font-family: 'Mulish', sans-serif;
-  color: #0D3D66; /* Set text color for the right panel */
+  color: #0D3D66; 
 }
 
 .greeting {
@@ -104,7 +104,7 @@ body {
   font-size: medium;
   font-weight: bold;
   cursor: pointer;
-  color: #0D3D66; /* Set text color */
+  color: #0D3D66; 
 }
 
 .card:hover {
@@ -124,5 +124,5 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  color: #f0f0f0; /* Footer text color */
+  color: #f0f0f0;
 }
