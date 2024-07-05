@@ -16,6 +16,6 @@ import  { MatIcon } from '@angular/material/icon';
 export class HomeComponent {
  
   navigate(url: string) {
-    window.location.href = url;
+    window.open (url, '_blank');
   }
 }
